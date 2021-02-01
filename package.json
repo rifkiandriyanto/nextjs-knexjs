@@ -5,10 +5,17 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "knex": "dotenv -e .env.local knex"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv-cli": "^4.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.16",
+    "mysql": "^2.18.1",
     "next": "10.0.5",
+    "next-cookies": "^2.0.3",
     "react": "17.0.1",
     "react-dom": "17.0.1"
   }
