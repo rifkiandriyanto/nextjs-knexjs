@@ -11,6 +11,7 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "dotenv-cli": "^4.0.0",
+    "js-cookie": "^2.2.1",
     "jsonwebtoken": "^8.5.1",
     "knex": "^0.21.16",
     "mysql": "^2.18.1",
